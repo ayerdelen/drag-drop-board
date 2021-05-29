@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-Drop To Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+        <div class="status">
+            <h1>No Status</h1>
+            <button id="add-btn"><span>➕</span> Add Todo </button>
+            <div class="todo" draggable="true">
+                Buy a pizza
+                <span class="close">✖️</span>
+            </div>
+        </div>
+        <div class="status">
+            <h1>Not Started</h1>
+        </div>
+        <div class="status">
+            <h1>In Progress</h1>
+        </div>
+        <div class="status">
+            <h1>Completed</h1>
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
